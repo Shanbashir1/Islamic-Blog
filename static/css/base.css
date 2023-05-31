@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/medina.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Lato';
+    overflow-x: hidden;
+}
+
+/* Shop-now-button for the Home/index.html  */
+.shop-now-button {
+    background-color: rgb(14, 16, 16);
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan;
+}
+
+.shop-now-button:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+
+}
+
+/* index page, header text to flash */
+.blink_me {
+    animation: blinker 15s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
