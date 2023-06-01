@@ -7,6 +7,24 @@ body {
     background-size: cover;
     font-family: 'Lato';
     overflow-x: hidden;
+
+    animation-name: medina-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes medina-zoom {
+    0% {
+        transform: scale(0.5, 1);
+    }
+
+    50% {
+        transform: scale(1, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
 /* Shop-now-button for the Home/index.html  */
@@ -32,4 +50,28 @@ body {
     50% {
         opacity: 0;
     }
+}
+
+.navbar-nav {
+    display: flex;
+    padding: 15px 150px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.sr-only {
+    font-display: rgb(224, 24, 24);
+}
+
+/* Main Nav.html nav bar */
+.nav-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #0b99e6;
+    -moz-text-decoration-color: #0693df;
+}
+
+.navbar-toggle {
+    z-index: 3;
 }
