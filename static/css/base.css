@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/medina.png') no-repeat center center fixed;
+    background: url('/media/grand1.png') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Lato';
     overflow-x: hidden;
@@ -20,10 +20,6 @@ body {
 
     50% {
         transform: scale(1, 1.5);
-    }
-
-    100% {
-        transform: scale(1, 1);
     }
 }
 
